@@ -1,11 +1,9 @@
 package com.example.crud_jwt.DTO;
 
-import java.time.LocalDateTime;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.example.crud_jwt.model.User;
+import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
@@ -15,5 +13,6 @@ public class RecoveryRequestDTO {
     private String token;
     private boolean isUsed;
     private LocalDateTime expiresAt;
-    private User user;
+    private Integer userId;
+    
 }
