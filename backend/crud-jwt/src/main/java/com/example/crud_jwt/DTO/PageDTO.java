@@ -16,5 +16,5 @@ public class PageDTO {
     private String name;
     private String path;
     private String description;
-    private List<PermissionRole> permissionRoles;
+    private List<Integer> permissionRoleIds;
 }
